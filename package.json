@@ -1,0 +1,25 @@
+{
+  "name": "myappnodejs",
+  "version": "1.0.0",
+  "description": "practice node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbdavid14/myappnodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "cbdavid14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbdavid14/myappnodejs/issues"
+  },
+  "homepage": "https://github.com/cbdavid14/myappnodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
