@@ -1,0 +1,56 @@
+
+Consola comandos: 
+- mongod 	--> inicia el servidor
+- mongo		--> shell de mongo db
+
+Instalar mongodb
+https://www.youtube.com/watch?v=gkCnXcxHC4o
+
+    Pasos CMD:
+        Iniciar la instancia de mondodb
+        - "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe" --dbpath="c:\data\db"
+
+        Abrir consola para mongodb
+        -"C:\Program Files\MongoDB\Server\4.4\bin\mongo.exe"
+
+
+        - cd C:\Program Files\MongoDB\Server\3.2\bin>
+        - mongod   ---> por defecto al puerto 27017
+        
+        Empezar el servicio:
+        - net start MongoDB
+
+
+
+Comandos del Shell de mongo db:
+- show dbs 	--> muestra las bd
+- db		--> conectar a la bd test
+- show collections --> lista los objetos de la bd
+- db.[tabla].find()  --> lista la información.
+- db.[tabla].find().pretty()
+- use [DatabaseName] --> crear la BD 
+
+ 
+
+ Comandos para iniciar:
+ - npm init --yes
+ 
+ Framework Express:
+ - npm install express
+
+ Modulo mongoose--> conectar con mongodb y modelar los objetos e interactuar con la BD
+- npm install mongoose
+
+Motor de plantillas: ejs
+- npm install ejs
+
+Modulo de morgan --> para saber por consola que es lo que esta pasando 
+es un middleware que una funcion antes q lleguen a las routes.
+- npm install morgan
+
+Modulo nos ayuda a no tener q reinicar nuestro servidor.
+- npm i nodemon
+
+instalar bootstrap 4
+- 
+
